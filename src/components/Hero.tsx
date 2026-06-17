@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { ArrowRight, FileSpreadsheet, ShieldAlert, CheckCircle2 } from 'lucide-react';
+import labImage from '../assets/images/hightech_cleanroom_lab_1781698449019.jpg';
 
 interface HeroProps {
   onStartProject: () => void;
@@ -91,10 +92,10 @@ export default function Hero({ onStartProject, onViewSpecs }: HeroProps) {
             
             <img 
               id="hero-lab-image"
-              alt="Advanced Laboratory and Manufacturing Facility showing high-end stainless steel line" 
+              alt="Advanced high-tech sterile cleanroom laboratory and medical-grade manufacturing facility" 
               className="rounded object-cover aspect-video w-full h-[320px] filter saturate-[0.95]" 
               referrerPolicy="no-referrer"
-              src="https://lh3.googleusercontent.com/aida/AP1WRLsw2hn6fTsNvztkK4DSfHyDjZssgZGO1Cc8sRlMdsqMOBbklNKKptzdbtNJW4lnWOTIfw3Pj97qyTlqyTUuZNfeSGExZ6JoAsw-P4QIMNNKhaaFmI_JsP7n5spkCa23vhOn510sb09_R8aMSvDuJB_PjW5JUEuIPSKefmhbH3XK9Og2Ggbvc_p9hp8wXjqE0-0LSsBFPs5X50qSPgrHQTTudrY7uzikv0UQ44OXsm0mUUccaFHeF6keCPpT"
+              src={labImage}
             />
             
             {/* Mini floating spec tag */}
